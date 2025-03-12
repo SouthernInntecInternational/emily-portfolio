@@ -1,14 +1,88 @@
 
-body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-header { background: #333; color: #fff; padding: 1rem; text-align: center; }
-nav ul { list-style: none; padding: 0; }
-nav ul li { display: inline; margin: 0 1rem; }
-nav ul li a { color: #fff; text-decoration: none; }
-.cta-button { display: inline-block; padding: 1rem 2rem; background: #007BFF; color: #fff; text-decoration: none; border-radius: 5px; margin-top: 1rem; }
-.gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; padding: 1rem; }
-.gallery-item { background: #f4f4f4; padding: 1rem; border-radius: 5px; text-align: center; }
-#contact-form { display: flex; flex-direction: column; gap: 0.5rem; padding: 1rem; }
-#contact-form input, #contact-form textarea { padding: 0.5rem; border: 1px solid #ccc; border-radius: 5px; }
-#contact-form button { padding: 0.5rem; background: #28a745; color: #fff; border: none; border-radius: 5px; cursor: pointer; }
-footer { background: #333; color: #fff; text-align: center; padding: 1rem; margin-top: 2rem; }
-@media (max-width: 600px) { nav ul li { display: block; margin: 0.5rem 0; } }
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background: #f9f9f9; 
+}
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+header { 
+    background: #333; 
+    color: #fff; 
+    padding: 1rem; 
+    text-align: center; 
+    border-radius: 8px 8px 0 0;
+}
+nav ul { 
+    list-style: none; 
+    padding: 0; 
+}
+nav ul li { 
+    display: inline; 
+    margin: 0 1rem; 
+}
+nav ul li a { 
+    color: #fff; 
+    text-decoration: none; 
+}
+.cta-button { 
+    display: inline-block; 
+    padding: 1rem 2rem; 
+    background: #007BFF; 
+    color: #fff; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    margin-top: 1rem; 
+}
+.gallery { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 1rem; 
+    padding: 1rem; 
+}
+.gallery-item { 
+    background: #f4f4f4; 
+    padding: 1rem; 
+    border-radius: 5px; 
+    text-align: center; 
+}
+#contact-form { 
+    display: flex; 
+    flex-direction: column; 
+    gap: 0.5rem; 
+    padding: 1rem; 
+}
+#contact-form input, #contact-form textarea { 
+    padding: 0.5rem; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+#contact-form button { 
+    padding: 0.5rem; 
+    background: #28a745; 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+footer { 
+    background: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 1rem; 
+    border-radius: 0 0 8px 8px;
+    margin-top: 2rem; 
+}
+@media (max-width: 600px) { 
+    nav ul li { 
+        display: block; 
+        margin: 0.5rem 0; 
+    } 
+}
